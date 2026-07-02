@@ -1,27 +1,22 @@
 # Still Unwritten / 迟迟
 
-《迟迟》是一部中文家族小说，写旧账、老宅、证件、病历、纸面材料和几代人之间迟迟没有说清的关系。
+一张纸能证明房子，证明病，证明死亡。证明不了谁欠了谁。
 
-周桂英去世以后，陈家人重新回到柳湾村的老宅。一本旧账簿、一堆证明材料、几份病历和房屋手续，把一家人的来路、亏欠、争执和沉默重新摆到桌面上。
+《迟迟》是一部中文家族小说。故事从柳湾村的老宅、一本旧账和几份证明材料开始，写几代人之间迟迟没有说清的亏欠、沉默和牵连。
+
+周桂英去世以后，陈家人重新回到旧宅。房屋手续、病历、户口、粮本、账簿和那些被人反复收起来的纸，把已经过去的年月又推到眼前。每个人都记得一点，每个人又都少说一点。真相不在某一句话里，而在长年累月的偏心、忍让、争执和躲避里。
 
 这些事排在一起，没有哪一件像结尾。
 
-## Online Reader
+## Read
 
-This repository hosts the public web reader for *Still Unwritten*.
+[fyapeng.com/unwritten](https://fyapeng.com/unwritten/)
 
-- Responsive chapter navigation
-- Scrolling and paged reading modes
-- Paper and night themes
-- Font-size controls
-- Local reading progress and bookmarks
-- Visible copyright notice and copy attribution
+网页阅读器支持滚动阅读和纸页式翻页，也可以切换夜读主题、调整字号，并在本机保存阅读进度和书签。它不是博客目录，而是为这部小说单独做的在线阅读空间。
 
-The public repository contains the reader interface and a catalog index only. Full chapter text is served by a private API one chapter at a time.
+## About
 
-## Links
-
-- Website: [fyapeng.com/unwritten](http://fyapeng.com/unwritten/)
+*Still Unwritten* is the English title of 《迟迟》. The site presents the novel as a quiet, responsive online reader with chapter navigation, local progress, bookmarks, and reading modes designed for desktop and mobile screens.
 
 ## Copyright
 
