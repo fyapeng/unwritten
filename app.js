@@ -84,6 +84,17 @@ async function getChapter(chapterId) {
   return merged;
 }
 
+function scrollReaderIntoView(behavior = "smooth") {
+  const page = document.querySelector(".reader-page");
+  const toolbar = document.querySelector(".reader-toolbar");
+  if (!page) return;
+
+  const toolbarHeight = toolbar?.getBoundingClientRect().height || 0;
+  const gap = window.matchMedia("(max-width: 900px)").matches ? 12 : 24;
+  const top = page.getBoundingClientRect().top + window.scrollY - toolbarHeight - gap;
+  window.scrollTo({ top: Math.max(0, top), behavior });
+}
+
 async function setChapter(chapterId, options = {}) {
   if (!book) return;
   const chapter = await getChapter(chapterId || book.chapters[0]?.id);
@@ -118,7 +129,7 @@ async function setChapter(chapterId, options = {}) {
   syncPagedPosition("saved");
 
   if (options.scroll) {
-    document.querySelector(".reader-page").scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollReaderIntoView("smooth");
   }
 }
 
@@ -140,6 +151,10 @@ function setLayout(layout) {
     button.classList.toggle("is-active", button.dataset.layout === layout);
   });
   syncPagedPosition("saved");
+
+  if (layout === "paged") {
+    requestAnimationFrame(() => scrollReaderIntoView("smooth"));
+  }
 }
 
 function setFont(delta) {

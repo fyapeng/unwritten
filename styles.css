@@ -357,10 +357,11 @@ body.layout-paged .reader-page {
   display: grid;
   grid-template-rows: auto auto auto minmax(0, 1fr) auto;
   width: min(1560px, calc(100% - 32px));
-  height: calc(100svh - 88px);
+  height: calc(100svh - 112px);
   min-height: 0;
-  margin: 8px auto 72px;
+  margin: 24px auto 72px;
   padding: clamp(24px, 3.4vw, 54px);
+  scroll-margin-top: 96px;
 }
 
 body.layout-paged .reader-page h2 {
@@ -500,10 +501,11 @@ body.theme-night {
 
   body.layout-paged .reader-page {
     width: calc(100% - 16px);
-    height: calc(100svh - 72px);
+    height: calc(100svh - 92px);
     min-height: 0;
-    margin: 4px auto 56px;
+    margin: 12px auto 56px;
     padding: 22px 16px 18px;
+    scroll-margin-top: 80px;
   }
 
   body.layout-paged .reader-page h2 {
