@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f1e8" />
+    <meta name="robots" content="noarchive, noimageindex, max-snippet:0" />
+    <title>Still Unwritten | 迟迟</title>
+    <meta
+      name="description"
+      content="Still Unwritten is an online reading project for the Chinese novel 迟迟 by Sencium, with responsive scrolling and paged reading modes."
+    />
+    <meta name="author" content="Sencium / 申椿" />
+    <meta property="og:type" content="book" />
+    <meta property="og:title" content="Still Unwritten | 迟迟" />
+    <meta
+      property="og:description"
+      content="A responsive online reader for the novel 迟迟, featuring chapter navigation, paged reading, reading progress, bookmarks, and copyright notices."
+    />
+    <meta property="og:image" content="./assets/cover-gate.png" />
+    <meta property="og:site_name" content="Still Unwritten" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="library-panel" aria-label="作品目录">
+        <a class="brand" href="#top" aria-label="回到封面">
+          <span class="brand-mark">迟</span>
+          <span>
+            <strong>迟迟</strong>
+            <small>Still Unwritten</small>
+          </span>
+        </a>
+
+        <nav class="toc" aria-label="章节">
+          <button class="toc-section is-open" type="button" data-target="part-0">
+            <span>序</span>
+            <span>1</span>
+          </button>
+          <ol id="part-0">
+            <li><button type="button" data-chapter="旧账">旧账</button></li>
+          </ol>
+
+          <button class="toc-section is-open" type="button" data-target="part-1">
+            <span>地基</span>
+            <span>10</span>
+          </button>
+          <ol id="part-1"></ol>
+
+          <button class="toc-section" type="button" data-target="part-2">
+            <span>向南</span>
+            <span>14</span>
+          </button>
+          <ol id="part-2" hidden></ol>
+
+          <button class="toc-section" type="button" data-target="part-3">
+            <span>煤灰和灯</span>
+            <span>20</span>
+          </button>
+          <ol id="part-3" hidden></ol>
+
+          <button class="toc-section" type="button" data-target="part-4">
+            <span>风停之后</span>
+            <span>18</span>
+          </button>
+          <ol id="part-4" hidden></ol>
+
+          <button class="toc-section" type="button" data-target="part-5">
+            <span>过日子</span>
+            <span>17</span>
+          </button>
+          <ol id="part-5" hidden></ol>
+        </nav>
+      </aside>
+
+      <main class="reader" id="top">
+        <header class="reader-toolbar">
+          <button class="icon-button mobile-menu" type="button" aria-label="打开目录">
+            <span></span><span></span><span></span>
+          </button>
+          <div class="progress-wrap" aria-label="阅读进度">
+            <span id="progress-label">0%</span>
+            <div class="progress-track"><span id="progress-bar"></span></div>
+          </div>
+          <div class="toolbar-actions">
+            <button class="text-button" type="button" data-theme="paper">纸页</button>
+            <button class="text-button" type="button" data-theme="night">夜读</button>
+            <button class="text-button" type="button" data-layout="scroll">滚动</button>
+            <button class="text-button" type="button" data-layout="paged">翻页</button>
+            <button class="icon-button" type="button" data-font="-1" aria-label="缩小字号">A-</button>
+            <button class="icon-button" type="button" data-font="1" aria-label="放大字号">A+</button>
+          </div>
+        </header>
+
+        <section class="hero">
+          <div class="cover-frame">
+            <img src="./assets/cover-gate.png" alt="《迟迟》封面" />
+          </div>
+          <div class="hero-copy">
+            <p class="eyebrow">fyapeng.com / unwritten</p>
+            <h1>迟迟</h1>
+            <p class="subtitle">这些事排在一起，没有哪一件像结尾。</p>
+            <div class="hero-actions">
+              <button class="primary-button" type="button" data-start-reading>开始阅读</button>
+              <button class="secondary-button" type="button" data-open-map>查看结构</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="reader-page" aria-live="polite">
+          <div class="chapter-meta">
+            <span id="part-name">地基</span>
+            <span id="chapter-count">80 章</span>
+          </div>
+          <h2 id="chapter-title">一个为《迟迟》准备的在线阅读器</h2>
+          <p id="chapter-lede">
+            当前版本只发布主界面、目录和阅读器体验，不包含完整小说正文。后续可以选择公开试读章节，或接入后端登录系统，把正文按权限分发。
+          </p>
+          <div class="sample-text" id="sample-text">
+            <p>网页端适合做成沉浸式阅读器，而不是普通博客。读者打开后首先看到作品、封面和阅读入口，进入正文后只保留必要的目录、进度、字号和夜间模式。</p>
+            <p>交互层可以逐步增加：人物关系、年代线、地点索引、物件线索、章节之间的伏笔回看。它们不必一开始就做完，先把阅读体验立稳，再把资料层变成第二入口。</p>
+            <p>需要注意的是，只要文字在浏览器里显示，技术上就无法彻底阻止复制。真正能保护的是不把源文件、完整 PDF、完整 Markdown 或 LaTeX 仓库公开；公开站点只发布必要的前端产物。</p>
+          </div>
+          <div class="page-controls" aria-label="翻页控制">
+            <button class="secondary-button" type="button" data-page="prev">上一页</button>
+            <span id="page-status">1 / 1</span>
+            <button class="secondary-button" type="button" data-page="next">下一页</button>
+            <button class="secondary-button" type="button" data-bookmark="save">书签</button>
+            <button class="secondary-button" type="button" data-bookmark="open">回书签</button>
+          </div>
+        </section>
+
+        <footer class="site-rights" aria-label="版权声明">
+          <strong>版权声明</strong>
+          <span>《迟迟》及本站文字内容版权归 fyapeng / 申椿所有。未经许可，不得转载、改编、批量抓取或用于训练、分发和商业用途。</span>
+          <span>© <span id="copyright-year">2026</span> fyapeng.com</span>
+        </footer>
+      </main>
+    </div>
+
+    <div class="drawer-backdrop" hidden></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+# Full text is served by a private API in production.
+content/book.json
+content/*.json
+
+# Optional local API endpoint override.
+config.js
+
+# Local tooling caches.
+__pycache__/
+*.pyc
