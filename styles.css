@@ -357,9 +357,9 @@ body.layout-paged .reader-page {
   display: grid;
   grid-template-rows: auto auto auto minmax(0, 1fr) auto;
   width: min(1560px, calc(100% - 32px));
-  height: calc(100svh - 96px);
+  height: calc(100svh - 88px);
   min-height: 0;
-  margin: 16px auto 40px;
+  margin: 8px auto 72px;
   padding: clamp(24px, 3.4vw, 54px);
 }
 
@@ -402,10 +402,15 @@ body.layout-paged .page-controls {
   display: grid;
   gap: 8px;
   width: min(760px, calc(100% - 40px));
-  margin: -56px auto 64px;
+  margin: 0 auto 64px;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.7;
+}
+
+body.layout-paged .site-rights {
+  width: min(960px, calc(100% - 40px));
+  margin-top: 0;
 }
 
 .site-rights strong {
@@ -495,9 +500,9 @@ body.theme-night {
 
   body.layout-paged .reader-page {
     width: calc(100% - 16px);
-    height: calc(100svh - 76px);
+    height: calc(100svh - 72px);
     min-height: 0;
-    margin: 8px auto 28px;
+    margin: 4px auto 56px;
     padding: 22px 16px 18px;
   }
 
@@ -521,7 +526,7 @@ body.theme-night {
 
   .site-rights {
     width: calc(100% - 24px);
-    margin: -24px auto 40px;
+    margin: 0 auto 40px;
   }
 }
 
