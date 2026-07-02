@@ -22,7 +22,6 @@ The public repository contains the reader interface and a catalog index only. Fu
 ## Links
 
 - Website: [fyapeng.com/unwritten](http://fyapeng.com/unwritten/)
-- API: `https://unwrittenapi.fyapeng.com`
 
 ## Copyright
 
