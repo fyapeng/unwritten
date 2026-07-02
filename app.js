@@ -10,7 +10,13 @@ let chapterById = new Map();
 let chapterCache = new Map();
 let wheelLocked = false;
 
-const API_BASE = (window.UNWRITTEN_API_BASE || "").replace(/\/$/, "");
+const params = new URLSearchParams(window.location.search);
+const apiFromQuery = params.get("api");
+if (apiFromQuery) {
+  localStorage.setItem("unwritten.apiBase", apiFromQuery);
+}
+
+const API_BASE = (window.UNWRITTEN_API_BASE || localStorage.getItem("unwritten.apiBase") || "").replace(/\/$/, "");
 
 const toc = document.querySelector(".toc");
 const title = document.querySelector("#chapter-title");
