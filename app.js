@@ -247,9 +247,15 @@ function openBookmark() {
 
 async function loadBook() {
   try {
-    const response = API_BASE
-      ? await fetch(`${API_BASE}/index`, { cache: "no-store" })
-      : await fetch("./content/book.json", { cache: "no-store" });
+    let response;
+    if (API_BASE) {
+      response = await fetch(`${API_BASE}/index`, { cache: "no-store" });
+    } else {
+      response = await fetch("./content/book.json", { cache: "no-store" });
+      if (!response.ok) {
+        response = await fetch("./content/index.json", { cache: "no-store" });
+      }
+    }
 
     if (!response.ok) throw new Error(`Book index returned HTTP ${response.status}`);
     book = await response.json();
@@ -262,7 +268,7 @@ async function loadBook() {
     partName.textContent = API_BASE ? "API 状态" : "离线状态";
     lede.textContent = API_BASE
       ? "请检查 API 服务是否在线，或确认 CORS 设置允许当前站点访问。"
-      : "请通过本地预览服务访问。生产环境应配置 API 地址，而不是提交完整正文 JSON。";
+      : "当前公开站点未配置正文 API。目录可以浏览，正文需要 API 按章节加载。";
     sampleText.textContent = "";
     const p = document.createElement("p");
     p.textContent = "本地预览命令：python -m http.server 4180 --bind 127.0.0.1";

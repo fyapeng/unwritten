@@ -1,0 +1,702 @@
+{
+  "title": "迟迟",
+  "subtitle": "Still Unwritten",
+  "author": "申椿 Sencium",
+  "site": "fyapeng.com",
+  "copyright": "© fyapeng.com / fyapeng. All rights reserved.",
+  "parts": [
+    {
+      "name": "序",
+      "chapters": [
+        "chapters/00-yinzi"
+      ]
+    },
+    {
+      "name": "地基",
+      "chapters": [
+        "chapters/01-podou",
+        "chapters/02-daguo",
+        "chapters/03-dou",
+        "chapters/04-cangliang",
+        "chapters/05-menhou",
+        "chapters/06-menshuan",
+        "chapters/07-laoda",
+        "chapters/08-nver",
+        "chapters/09-songtu",
+        "chapters/10-xiaoyi"
+      ]
+    },
+    {
+      "name": "向南",
+      "chapters": [
+        "chapters/11-fentian",
+        "chapters/12-ganji",
+        "chapters/13-chezhan",
+        "chapters/14-nanxia",
+        "chapters/15-luxiang",
+        "chapters/16-pijiake",
+        "chapters/17-yingyezhizhao",
+        "chapters/18-menmian",
+        "chapters/19-taiqiu",
+        "chapters/20-meihui",
+        "chapters/21-gongpai",
+        "chapters/22-jinmen",
+        "chapters/23-chuanhu",
+        "chapters/24-guangdie"
+      ]
+    },
+    {
+      "name": "煤灰和灯",
+      "chapters": [
+        "chapters/25-baojian",
+        "chapters/26-zuoji",
+        "chapters/27-shashi",
+        "chapters/28-xiaohonghua",
+        "chapters/29-loupan",
+        "chapters/30-anjian",
+        "chapters/31-wuzi",
+        "chapters/32-zuowei",
+        "chapters/33-yuwen",
+        "chapters/34-xianzhong",
+        "chapters/35-kedaibiao",
+        "chapters/36-fenke",
+        "chapters/37-anquanmao",
+        "chapters/38-diwu",
+        "chapters/39-yajin",
+        "chapters/40-duanxin",
+        "chapters/41-baodao",
+        "chapters/42-chuyuan",
+        "chapters/43-bingli",
+        "chapters/44-jianding"
+      ]
+    },
+    {
+      "name": "风停之后",
+      "chapters": [
+        "chapters/45-fucha",
+        "chapters/46-sanshu",
+        "chapters/47-buchengju",
+        "chapters/48-luyin",
+        "chapters/49-kaoyan",
+        "chapters/50-yaohe",
+        "chapters/51-fushi",
+        "chapters/52-kaiti",
+        "chapters/53-xiangmu",
+        "chapters/54-chehui",
+        "chapters/55-shan",
+        "chapters/56-jiumenmian",
+        "chapters/57-bianliang",
+        "chapters/58-xiugai"
+      ]
+    },
+    {
+      "name": "过日子",
+      "chapters": [
+        "chapters/59-dianhua",
+        "chapters/60-bingfang",
+        "chapters/61-sangshi",
+        "chapters/62-muxiang",
+        "chapters/63-zhaijidi",
+        "chapters/64-suanpan",
+        "chapters/65-paotui",
+        "chapters/66-fangjian",
+        "chapters/67-wanglixia",
+        "chapters/68-shuoming",
+        "chapters/69-mianshi",
+        "chapters/70-saomianjian",
+        "chapters/71-disangao",
+        "chapters/72-cunwei",
+        "chapters/73-fenge",
+        "chapters/74-shoushi",
+        "chapters/75-banshou",
+        "chapters/76-dabo",
+        "chapters/77-geshi",
+        "chapters/78-houtai",
+        "chapters/79-guorizi",
+        "backmatter/quanshuwan"
+      ]
+    },
+    {
+      "name": "附录",
+      "chapters": [
+        "backmatter/renwu-jianbiao"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "chapters/00-yinzi",
+      "part": "序",
+      "title": "旧账",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/01-podou",
+      "part": "地基",
+      "title": "破斗",
+      "time": "一九四九年冬至一九五〇年春",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/02-daguo",
+      "part": "地基",
+      "title": "大锅",
+      "time": "一九五八年秋",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/03-dou",
+      "part": "地基",
+      "title": "斗",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/04-cangliang",
+      "part": "地基",
+      "title": "藏粮",
+      "time": "一九六一年冬",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/05-menhou",
+      "part": "地基",
+      "title": "门后",
+      "time": "一九六五年至一九六九年",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/06-menshuan",
+      "part": "地基",
+      "title": "门栓",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/07-laoda",
+      "part": "地基",
+      "title": "老大",
+      "time": "一九七一年至一九七三年",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/08-nver",
+      "part": "地基",
+      "title": "女儿",
+      "time": "一九七六年秋",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/09-songtu",
+      "part": "地基",
+      "title": "松土",
+      "time": "一九七八年冬",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/10-xiaoyi",
+      "part": "地基",
+      "title": "小衣",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/11-fentian",
+      "part": "向南",
+      "title": "分田",
+      "time": "一九八一年春",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/12-ganji",
+      "part": "向南",
+      "title": "赶集",
+      "time": "一九八三年至一九八五年",
+      "place": "青河县柳湾村、青河县城"
+    },
+    {
+      "id": "chapters/13-chezhan",
+      "part": "向南",
+      "title": "车站",
+      "time": "一九八八年冬",
+      "place": "青河县城车站"
+    },
+    {
+      "id": "chapters/14-nanxia",
+      "part": "向南",
+      "title": "南下",
+      "time": "一九九一年春",
+      "place": "青河县柳湾村、南方某城"
+    },
+    {
+      "id": "chapters/15-luxiang",
+      "part": "向南",
+      "title": "录像",
+      "time": "一九九一年至一九九二年",
+      "place": "南方某城"
+    },
+    {
+      "id": "chapters/16-pijiake",
+      "part": "向南",
+      "title": "皮夹克",
+      "time": "一九九二年腊月",
+      "place": "青河县柳湾村、青河县城"
+    },
+    {
+      "id": "chapters/17-yingyezhizhao",
+      "part": "向南",
+      "title": "营业执照",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/18-menmian",
+      "part": "向南",
+      "title": "门面",
+      "time": "一九九三年春至一九九四年初",
+      "place": "青河县城"
+    },
+    {
+      "id": "chapters/19-taiqiu",
+      "part": "向南",
+      "title": "台球",
+      "time": "一九九五年春",
+      "place": "青河县城"
+    },
+    {
+      "id": "chapters/20-meihui",
+      "part": "向南",
+      "title": "煤灰",
+      "time": "一九九六年冬",
+      "place": "青河煤矿、柳湾村"
+    },
+    {
+      "id": "chapters/21-gongpai",
+      "part": "向南",
+      "title": "工牌",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/22-jinmen",
+      "part": "向南",
+      "title": "进门",
+      "time": "一九九六年腊月至一九九七年冬",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/23-chuanhu",
+      "part": "向南",
+      "title": "传呼",
+      "time": "一九九八年春",
+      "place": "青河县城、柳湾村"
+    },
+    {
+      "id": "chapters/24-guangdie",
+      "part": "向南",
+      "title": "光碟",
+      "time": "一九九九年冬至二〇二六年夏",
+      "place": "青河县城、柳湾村"
+    },
+    {
+      "id": "chapters/25-baojian",
+      "part": "煤灰和灯",
+      "title": "包间",
+      "time": "二〇〇〇年至二〇〇一年",
+      "place": "青河县城、柳湾村"
+    },
+    {
+      "id": "chapters/26-zuoji",
+      "part": "煤灰和灯",
+      "title": "座机",
+      "time": "二〇〇一年秋至二〇〇二年春",
+      "place": "青河县柳湾村"
+    },
+    {
+      "id": "chapters/27-shashi",
+      "part": "煤灰和灯",
+      "title": "砂石",
+      "time": "二〇〇三年至二〇〇五年",
+      "place": "青河县城、城东新区"
+    },
+    {
+      "id": "chapters/28-xiaohonghua",
+      "part": "煤灰和灯",
+      "title": "小红花",
+      "time": "二〇〇三年至二〇二六年夏",
+      "place": "柳湾学校、柳湾村"
+    },
+    {
+      "id": "chapters/29-loupan",
+      "part": "煤灰和灯",
+      "title": "楼盘",
+      "time": "二〇〇六年至二〇〇七年",
+      "place": "青河县城东新区、柳湾村"
+    },
+    {
+      "id": "chapters/30-anjian",
+      "part": "煤灰和灯",
+      "title": "按键",
+      "time": "二〇〇八年夏至秋",
+      "place": "青河县城东新区、柳湾村、柳湾学校"
+    },
+    {
+      "id": "chapters/31-wuzi",
+      "part": "煤灰和灯",
+      "title": "杌子",
+      "time": "二〇一〇年至二〇一二年",
+      "place": "柳湾村，陈家屋里"
+    },
+    {
+      "id": "chapters/32-zuowei",
+      "part": "煤灰和灯",
+      "title": "座位",
+      "time": "二〇一二年秋至冬",
+      "place": "柳湾乡中操场"
+    },
+    {
+      "id": "chapters/33-yuwen",
+      "part": "煤灰和灯",
+      "title": "语文",
+      "time": "二〇一三年春",
+      "place": "柳湾乡中"
+    },
+    {
+      "id": "chapters/34-xianzhong",
+      "part": "煤灰和灯",
+      "title": "县中",
+      "time": "二〇一三年秋至二〇一四年春",
+      "place": "青河县县一中"
+    },
+    {
+      "id": "chapters/35-kedaibiao",
+      "part": "煤灰和灯",
+      "title": "课代表",
+      "time": "二〇一四年春至夏",
+      "place": "青河县县一中"
+    },
+    {
+      "id": "chapters/36-fenke",
+      "part": "煤灰和灯",
+      "title": "分科",
+      "time": "二〇一四年夏",
+      "place": "青河县县一中"
+    },
+    {
+      "id": "chapters/37-anquanmao",
+      "part": "煤灰和灯",
+      "title": "安全帽",
+      "time": "二〇一五年秋至二〇二六年夏",
+      "place": "外地工地、青河县柳湾村"
+    },
+    {
+      "id": "chapters/38-diwu",
+      "part": "煤灰和灯",
+      "title": "第五",
+      "time": "二〇一六年夏",
+      "place": "青河县、柳湾村"
+    },
+    {
+      "id": "chapters/39-yajin",
+      "part": "煤灰和灯",
+      "title": "押金",
+      "time": "二〇一六年秋",
+      "place": "外地医院、青河县柳湾村"
+    },
+    {
+      "id": "chapters/40-duanxin",
+      "part": "煤灰和灯",
+      "title": "短信",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/41-baodao",
+      "part": "煤灰和灯",
+      "title": "报到",
+      "time": "二〇一六年秋",
+      "place": "首都西郊大学"
+    },
+    {
+      "id": "chapters/42-chuyuan",
+      "part": "煤灰和灯",
+      "title": "出院",
+      "time": "二〇一六年冬至二〇一七年春节",
+      "place": "外地医院、柳湾村"
+    },
+    {
+      "id": "chapters/43-bingli",
+      "part": "煤灰和灯",
+      "title": "病历",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/44-jianding",
+      "part": "煤灰和灯",
+      "title": "鉴定",
+      "time": "二〇一七年春",
+      "place": "青河县城"
+    },
+    {
+      "id": "chapters/45-fucha",
+      "part": "风停之后",
+      "title": "复查",
+      "time": "二〇一七年秋至二〇一八年春",
+      "place": "青河县城、柳湾村"
+    },
+    {
+      "id": "chapters/46-sanshu",
+      "part": "风停之后",
+      "title": "三叔",
+      "time": "二〇一八年夏至腊月",
+      "place": "青河煤矿、柳湾村、县医院"
+    },
+    {
+      "id": "chapters/47-buchengju",
+      "part": "风停之后",
+      "title": "不成句",
+      "time": "二〇一九年春",
+      "place": "青河县康复医院、柳湾村"
+    },
+    {
+      "id": "chapters/48-luyin",
+      "part": "风停之后",
+      "title": "录音",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/49-kaoyan",
+      "part": "风停之后",
+      "title": "考研",
+      "time": "二〇一九年秋",
+      "place": "首都西郊大学"
+    },
+    {
+      "id": "chapters/50-yaohe",
+      "part": "风停之后",
+      "title": "药盒",
+      "time": "二〇一九年冬",
+      "place": "青河县柳湾村、县医院"
+    },
+    {
+      "id": "chapters/51-fushi",
+      "part": "风停之后",
+      "title": "复试",
+      "time": "二〇二〇年春至夏",
+      "place": "柳湾村、线上复试"
+    },
+    {
+      "id": "chapters/52-kaiti",
+      "part": "风停之后",
+      "title": "开题",
+      "time": "二〇二一年秋至二〇二二年春",
+      "place": "首都西郊大学、柳湾村"
+    },
+    {
+      "id": "chapters/53-xiangmu",
+      "part": "风停之后",
+      "title": "项目",
+      "time": "二〇二二年秋",
+      "place": "首都西郊大学"
+    },
+    {
+      "id": "chapters/54-chehui",
+      "part": "风停之后",
+      "title": "撤回",
+      "time": "二〇二二年冬",
+      "place": "首都西郊、青河县柳湾村"
+    },
+    {
+      "id": "chapters/55-shan",
+      "part": "风停之后",
+      "title": "山",
+      "time": "二〇二三年夏",
+      "place": "首都西郊大学"
+    },
+    {
+      "id": "chapters/56-jiumenmian",
+      "part": "风停之后",
+      "title": "旧门面",
+      "time": "二〇二三年冬",
+      "place": "青河县城老电影院街"
+    },
+    {
+      "id": "chapters/57-bianliang",
+      "part": "风停之后",
+      "title": "变量",
+      "time": "二〇二四年冬至二〇二六年夏",
+      "place": "首都西郊、青河县柳湾村"
+    },
+    {
+      "id": "chapters/58-xiugai",
+      "part": "风停之后",
+      "title": "修改",
+      "time": "二〇二五年春至二〇二六年春",
+      "place": "首都西郊大学、青河县柳湾村"
+    },
+    {
+      "id": "chapters/59-dianhua",
+      "part": "过日子",
+      "title": "电话",
+      "time": "二〇二六年夏",
+      "place": "首都西郊、青河县"
+    },
+    {
+      "id": "chapters/60-bingfang",
+      "part": "过日子",
+      "title": "病房",
+      "time": "二〇二六年夏",
+      "place": "青河县县医院、柳湾村"
+    },
+    {
+      "id": "chapters/61-sangshi",
+      "part": "过日子",
+      "title": "丧事",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/62-muxiang",
+      "part": "过日子",
+      "title": "木箱",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/63-zhaijidi",
+      "part": "过日子",
+      "title": "宅基地",
+      "time": "二〇二六年夏",
+      "place": "青河县城、柳湾村村委会"
+    },
+    {
+      "id": "chapters/64-suanpan",
+      "part": "过日子",
+      "title": "算盘",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/65-paotui",
+      "part": "过日子",
+      "title": "跑腿",
+      "time": "二〇二六年夏",
+      "place": "青河县城、县医院"
+    },
+    {
+      "id": "chapters/66-fangjian",
+      "part": "过日子",
+      "title": "房间",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅、后坡坟地"
+    },
+    {
+      "id": "chapters/67-wanglixia",
+      "part": "过日子",
+      "title": "王丽霞",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村、王丽霞娘家"
+    },
+    {
+      "id": "chapters/68-shuoming",
+      "part": "过日子",
+      "title": "说明",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村、首都西郊"
+    },
+    {
+      "id": "chapters/69-mianshi",
+      "part": "过日子",
+      "title": "面试",
+      "time": "二〇二六年夏",
+      "place": "省城、青河县柳湾村"
+    },
+    {
+      "id": "chapters/70-saomianjian",
+      "part": "过日子",
+      "title": "扫描件",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/71-disangao",
+      "part": "过日子",
+      "title": "第三稿",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈家老宅"
+    },
+    {
+      "id": "chapters/72-cunwei",
+      "part": "过日子",
+      "title": "村委",
+      "time": "二〇二六年夏",
+      "place": "柳湾村村委会、陈家老宅"
+    },
+    {
+      "id": "chapters/73-fenge",
+      "part": "过日子",
+      "title": "分格",
+      "time": "二〇二六年夏",
+      "place": "陈秀梅家、陈家老宅"
+    },
+    {
+      "id": "chapters/74-shoushi",
+      "part": "过日子",
+      "title": "手势",
+      "time": "二〇二六年夏",
+      "place": "青河县柳湾村，陈向北家"
+    },
+    {
+      "id": "chapters/75-banshou",
+      "part": "过日子",
+      "title": "扳手",
+      "time": "二〇二六年夏",
+      "place": "青河县城，修车铺"
+    },
+    {
+      "id": "chapters/76-dabo",
+      "part": "过日子",
+      "title": "大伯",
+      "time": "二〇二六年夏",
+      "place": "柳湾村后坡、陈家老宅"
+    },
+    {
+      "id": "chapters/77-geshi",
+      "part": "过日子",
+      "title": "格式",
+      "time": "二〇二六年夏",
+      "place": "青河县政务大厅、陈家老宅"
+    },
+    {
+      "id": "chapters/78-houtai",
+      "part": "过日子",
+      "title": "后台",
+      "time": "二〇二六年夏",
+      "place": "青河县、首都西郊"
+    },
+    {
+      "id": "chapters/79-guorizi",
+      "part": "过日子",
+      "title": "过日子",
+      "time": "二〇二六年秋",
+      "place": "青河县车站、首都西郊"
+    },
+    {
+      "id": "backmatter/quanshuwan",
+      "part": "过日子",
+      "title": "全书完",
+      "time": "",
+      "place": ""
+    },
+    {
+      "id": "backmatter/renwu-jianbiao",
+      "part": "附录",
+      "title": "人物简表",
+      "time": "",
+      "place": ""
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 # Full text is served by a private API in production.
 content/book.json
 content/*.json
+!content/index.json
 
 # Optional local API endpoint override.
 config.js
