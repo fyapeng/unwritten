@@ -112,14 +112,7 @@
         "chapters/76-dabo",
         "chapters/77-geshi",
         "chapters/78-houtai",
-        "chapters/79-guorizi",
-        "backmatter/quanshuwan"
-      ]
-    },
-    {
-      "name": "附录",
-      "chapters": [
-        "backmatter/renwu-jianbiao"
+        "chapters/79-guorizi"
       ]
     }
   ],
@@ -127,7 +120,7 @@
     {
       "id": "chapters/00-yinzi",
       "part": "序",
-      "title": "旧账",
+      "title": "引子：旧账",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -148,7 +141,7 @@
     {
       "id": "chapters/03-dou",
       "part": "地基",
-      "title": "斗",
+      "title": "间章：斗",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -169,7 +162,7 @@
     {
       "id": "chapters/06-menshuan",
       "part": "地基",
-      "title": "门栓",
+      "title": "间章：门栓",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -197,7 +190,7 @@
     {
       "id": "chapters/10-xiaoyi",
       "part": "地基",
-      "title": "小衣",
+      "title": "间章：小衣",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -246,7 +239,7 @@
     {
       "id": "chapters/17-yingyezhizhao",
       "part": "向南",
-      "title": "营业执照",
+      "title": "间章：营业执照",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -274,7 +267,7 @@
     {
       "id": "chapters/21-gongpai",
       "part": "向南",
-      "title": "工牌",
+      "title": "间章：工牌",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -407,7 +400,7 @@
     {
       "id": "chapters/40-duanxin",
       "part": "煤灰和灯",
-      "title": "短信",
+      "title": "间章：短信",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -428,7 +421,7 @@
     {
       "id": "chapters/43-bingli",
       "part": "煤灰和灯",
-      "title": "病历",
+      "title": "间章：病历",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -463,7 +456,7 @@
     {
       "id": "chapters/48-luyin",
       "part": "风停之后",
-      "title": "录音",
+      "title": "间章：录音",
       "time": "二〇二六年夏",
       "place": "青河县柳湾村，陈家老宅"
     },
@@ -683,20 +676,6 @@
       "title": "过日子",
       "time": "二〇二六年秋",
       "place": "青河县车站、首都西郊"
-    },
-    {
-      "id": "backmatter/quanshuwan",
-      "part": "过日子",
-      "title": "全书完",
-      "time": "",
-      "place": ""
-    },
-    {
-      "id": "backmatter/renwu-jianbiao",
-      "part": "附录",
-      "title": "人物简表",
-      "time": "",
-      "place": ""
     }
   ]
 }
