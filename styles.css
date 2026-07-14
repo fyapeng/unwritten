@@ -372,6 +372,57 @@ h2 {
   font-style: italic;
 }
 
+.sample-text .reader-scene,
+.sample-text .reader-scene-break {
+  margin: 1.25em auto;
+  color: var(--muted);
+  font-size: calc(var(--reader-size) * 0.82);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.sample-text .reader-scene {
+  width: min(86%, 34em);
+  padding: 0.45em 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.sample-text .reader-scene-break {
+  font-size: calc(var(--reader-size) * 0.95);
+}
+
+.sample-text .reader-document {
+  width: min(82%, 38em);
+  margin: 1.35em auto;
+  padding: 0.9em 1.1em;
+  border: 1px solid var(--line);
+  line-height: 1.65;
+  break-inside: avoid;
+}
+
+.sample-text .reader-document h3 {
+  margin: 0 0 0.55em;
+  font-size: calc(var(--reader-size) * 0.82);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.sample-text .reader-document p {
+  margin: 0 0 0.45em;
+  font-size: calc(var(--reader-size) * 0.86);
+  line-height: 1.65;
+}
+
+.sample-text .reader-record {
+  background: color-mix(in srgb, var(--page) 88%, #c6a77a 12%);
+  font-family: "KaiTi", "STKaiti", serif;
+}
+
+.sample-text .reader-notice {
+  background: color-mix(in srgb, var(--page) 92%, #9aaec4 8%);
+}
+
 .page-controls {
   display: none;
   align-items: center;

@@ -114,9 +114,33 @@ async function setChapter(chapterId, options = {}) {
     text,
   }));
   blocks.forEach((block) => {
-    const element = document.createElement(block.type === "paragraph" ? "p" : "h3");
+    if (block.type === "record" || block.type === "notice") {
+      const element = document.createElement("aside");
+      element.className = `reader-block reader-document reader-${block.type}`;
+      const heading = document.createElement("h3");
+      heading.textContent = block.title || (block.type === "record" ? "旧记录" : "通知");
+      element.append(heading);
+      (block.paragraphs || []).forEach((text) => {
+        const p = document.createElement("p");
+        p.textContent = text;
+        element.append(p);
+      });
+      sampleText.append(element);
+      return;
+    }
+
+    let element;
+    if (block.type === "scene") {
+      element = document.createElement("div");
+      element.textContent = [block.time, block.place].filter(Boolean).join("　｜　");
+    } else if (block.type === "scene-break") {
+      element = document.createElement("div");
+      element.textContent = "※";
+    } else {
+      element = document.createElement(block.type === "paragraph" ? "p" : "h3");
+      element.textContent = block.text;
+    }
     element.className = `reader-block reader-${block.type}`;
-    element.textContent = block.text;
     sampleText.append(element);
   });
 
