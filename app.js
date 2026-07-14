@@ -113,7 +113,19 @@ async function setChapter(chapterId, options = {}) {
     type: "paragraph",
     text,
   }));
+  let firstScene = true;
   blocks.forEach((block) => {
+    if (
+      block.type === "scene" &&
+      firstScene &&
+      block.time === chapter.time &&
+      block.place === chapter.place
+    ) {
+      firstScene = false;
+      return;
+    }
+    if (block.type === "scene") firstScene = false;
+
     if (block.type === "record" || block.type === "notice") {
       const element = document.createElement("aside");
       element.className = `reader-block reader-document reader-${block.type}`;
