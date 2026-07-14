@@ -341,6 +341,37 @@ h2 {
   margin: 0 0 1.15em;
 }
 
+.sample-text .reader-subchapter,
+.sample-text .reader-interlude {
+  margin: 1.7em 0 0.7em;
+  font-size: calc(var(--reader-size) * 0.92);
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: center;
+  break-after: avoid;
+}
+
+.sample-text .reader-subchapter::before,
+.sample-text .reader-subchapter::after {
+  display: inline-block;
+  width: 2.2em;
+  margin: 0 0.7em;
+  border-top: 1px solid var(--line);
+  content: "";
+  vertical-align: middle;
+}
+
+.sample-text .reader-interlude {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.sample-text .reader-epigraph {
+  margin: 0 0 1.15em;
+  color: var(--muted);
+  font-style: italic;
+}
+
 .page-controls {
   display: none;
   align-items: center;

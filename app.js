@@ -109,11 +109,15 @@ async function setChapter(chapterId, options = {}) {
   const meta = [chapter.time, chapter.place].filter(Boolean).join("｜");
   lede.textContent = meta || "《迟迟》正文";
   sampleText.textContent = "";
-  const paragraphs = chapter.paragraphs || ["本章正文暂时无法加载。"];
-  paragraphs.forEach((paragraph) => {
-    const p = document.createElement("p");
-    p.textContent = paragraph;
-    sampleText.append(p);
+  const blocks = chapter.blocks || (chapter.paragraphs || ["本章正文暂时无法加载。"]).map((text) => ({
+    type: "paragraph",
+    text,
+  }));
+  blocks.forEach((block) => {
+    const element = document.createElement(block.type === "paragraph" ? "p" : "h3");
+    element.className = `reader-block reader-${block.type}`;
+    element.textContent = block.text;
+    sampleText.append(element);
   });
 
   document.querySelectorAll("[data-chapter-id]").forEach((button) => {
